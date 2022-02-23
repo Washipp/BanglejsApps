@@ -1,0 +1,14 @@
+{ "id": "wid%bat",
+  "name": "Simple Percentage Battery",
+  "shortName":"Percentage Battery",
+  "version":"0.01",
+  "description": "Only display the battery as a percentage",
+  "icon": "widget.png",  
+  "type": "widget",
+  "tags": "battery, percentage",
+  "supports" : ["BANGLEJS2"],
+  "readme": "README.md",
+  "storage": [
+    {"name":"wid%bat.wid.js","url":"widget.js"}
+  ]
+}
