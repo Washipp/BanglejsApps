@@ -8,7 +8,6 @@
     var x = this.x, y = this.y;
     g.reset();
     l = E.getBattery();
-    l = Math.floor(Math.random() * 100);
     var c = l <= 15 ? red : normal;
     c = Bangle.isCharging() ? charging : c;
     var s = l < 10 ? "0" + l : l;
